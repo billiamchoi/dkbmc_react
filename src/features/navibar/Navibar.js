@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Navibar() {
+export default function Navibar() {
     return (
       <Navbar bg="light" expand="lg">
         <Container>
@@ -20,5 +19,3 @@ function Navibar() {
       </Navbar>
     );
   }
-  
-export default Navibar;
