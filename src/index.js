@@ -5,6 +5,9 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+// react-bootstrap CSS import (bootstrap CDN 같은 역할)
+// 보통 App.js나 index.js에 넣어줌
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);

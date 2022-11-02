@@ -20,6 +20,7 @@ export const incrementAsync = createAsyncThunk(
   }
 );
 
+// 리듀서 함수의 객체, 슬라이스 이름, 초기 상태 값을 받아들이고 해당 액션 생성자와 액션 유형으로 슬라이스 리듀서를 자동으로 생성함
 export const counterSlice = createSlice({
   name: 'counter',
   initialState,
